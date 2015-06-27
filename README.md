@@ -1,5 +1,5 @@
 Oyster
-#######
+=======
 
 Fork of the [OYSTER](http://sourceforge.net/projects/oysterer/) (Open sYSTem Entity Resolution) entity resolution system.
 
