@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Merge-purgeSourceDescriptorq.xml
+    Created on : 11/25/2010
+    Author     : Fumiko Kobayashi
+    Description: Source Descriptor for the Merge-Purge sample run
+-->
+
+<OysterSourceDescriptor Name="source1">
+    <!-- Delimited -->
+    <Source Type="FileDelim" Char="|" Qual="" Labels="Y">/Users/shayanmohanty/Downloads/Demonstration Runs v3.3 20130710/Oyster/Run001/Input/MergePurgeTest.txt</Source>
+    
+    <!-- Items in Source (One for each item in the source including reference identifier -->
+    <ReferenceItems>
+        <!-- For Delimited -->
+        <Item Name="IdentityID" Attribute="@RefID" Pos="0"/>
+        <Item Name="Fname" Attribute="StudentFirstName" Pos="1"/>
+        <Item Name="Lname" Attribute="StudentLastName" Pos="2"/>
+        <Item Name="Scode" Attribute="LEA" Pos="3"/>
+        <Item Name="DOBYMD" Attribute="StudentDateOfBirth" Pos="4"/>
+    </ReferenceItems>
+</OysterSourceDescriptor>

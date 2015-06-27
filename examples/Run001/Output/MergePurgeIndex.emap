@@ -1,0 +1,36 @@
+Metadata={A=@RefID, B=StudentFirstName, C=StudentLastName, D=LEA, E=StudentDateOfBirth}
+
+Initial RefID	CoDoSA Identity
+XVI8NV5E03OWX86Y	OysterID: XVI8NV5E03OWX86Y
+Creation Date: null
+Size: 3
+CType: N
+Persistant: false
+Record 0: @RefID=source1.1, StudentFirstName=Edgar, StudentLastName=Jones, LEA=G34, StudentDateOfBirth=20001104, Input record: false, Current Traces: null, Previous Traces: []
+Record 1: @RefID=source1.3, StudentFirstName=Eddie, StudentLastName=Jones, LEA=H15, StudentDateOfBirth=20001104, Input record: false, Current Traces: null, Previous Traces: []
+Record 2: @RefID=source1.5, StudentFirstName=Eddie, StudentLastName=Jones, LEA=G34, StudentDateOfBirth=20001104, Input record: false, Current Traces: null, Previous Traces: []
+Merges: {Q928GNKAT7D0B0X6=source1.3}
+StrToStr: []
+NegStrToStr: []
+
+MW9AGFLZ2A1ENXZ5	OysterID: MW9AGFLZ2A1ENXZ5
+Creation Date: null
+Size: 2
+CType: N
+Persistant: false
+Record 0: @RefID=source1.2, StudentFirstName=Mary, StudentLastName=Smith, LEA=G55, StudentDateOfBirth=19990921, Input record: false, Current Traces: null, Previous Traces: []
+Record 1: @RefID=source1.4, StudentFirstName=Mary, StudentLastName=Smith, LEA=H17, StudentDateOfBirth=19990921, Input record: false, Current Traces: null, Previous Traces: []
+Merges: {}
+StrToStr: []
+NegStrToStr: []
+
+FYONETPU881DH2L0	OysterID: FYONETPU881DH2L0
+Creation Date: null
+Size: 1
+CType: N
+Persistant: false
+Record 0: @RefID=source1.6, StudentFirstName=Super, StudentLastName=Man, LEA=G19, StudentDateOfBirth=20011104, Input record: false, Current Traces: null, Previous Traces: []
+Merges: {}
+StrToStr: []
+NegStrToStr: []
+

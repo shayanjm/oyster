@@ -1,0 +1,28 @@
+OYSTER Identity Change Report
+Date          : Jun 27, 2015
+RunScript Path: MergePurgeRunScript.xml
+RunScript Name: MergePurgeRunScript
+
+Identity Change Summary Section
+Count of Output Identities:	3
+Count of Input Identities:	0
+Count of Input Identities Updated and Written to Output:	0
+Count of Input Identities Not Updated and Written to Output:	0
+Count of Input Identities Merged:	0
+Count of New Identities Created:	0
+
+
+Identity Change Detail Section
+New Identities Created
+Identifier	References
+XVI8NV5E03OWX86Y	source1.1|source1.3|source1.5
+MW9AGFLZ2A1ENXZ5	source1.2|source1.4
+FYONETPU881DH2L0	source1.6
+
+
+Input Identities Merged
+Input Identifier	Output Identifier
+
+
+Input Identities Updated
+Identifier	References before update	References after update
