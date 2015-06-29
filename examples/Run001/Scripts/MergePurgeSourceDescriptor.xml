@@ -9,7 +9,7 @@
 
 <OysterSourceDescriptor Name="source1">
     <!-- Delimited -->
-    <Source Type="FileDelim" Char="|" Qual="" Labels="Y">/Users/shayanmohanty/Downloads/Demonstration Runs v3.3 20130710/Oyster/Run001/Input/MergePurgeTest.txt</Source>
+    <Source Type="FileDelim" Char="|" Qual="" Labels="Y">examples/Run001/Input/MergePurgeTest.txt</Source>
     
     <!-- Items in Source (One for each item in the source including reference identifier -->
     <ReferenceItems>

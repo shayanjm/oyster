@@ -10,14 +10,14 @@
 <OysterRunScript>
      <Settings RunScriptName="MergePurgeRunScript" Explanation="On" Debug="On" ChangeReportDetail="Yes"  Trace="On" SS="Off" />
 
-     <LogFile Num="5" Size="100000000">/Users/shayanmohanty/Downloads/Demonstration Runs v3.3 20130710/Oyster/Log/MergePurge_%g.log</LogFile>
+     <LogFile Num="5" Size="100000000">log/MergePurge_%g.log</LogFile>
 
      <RunMode>MergePurge</RunMode>
 
      <EREngine Type="FSCluster" />
 
      <!-- Attributes read from file only -->
-     <AttributePath>/Users/shayanmohanty/Downloads/Demonstration Runs v3.3 20130710/Oyster/Run001/Scripts/MergePurgeAttributes.xml</AttributePath> 
+     <AttributePath>examples/Run001/Scripts/MergePurgeAttributes.xml</AttributePath> 
     
      <!-- Merge-purge does not start with any managed identities -->
      <IdentityInput Type="None" />
@@ -26,10 +26,10 @@
      <IdentityOutput Type="None" />
 
      <!-- Merge-purge only output is the Link Index  -->
-     <LinkOutput Type="TextFile">/Users/shayanmohanty/Downloads/Demonstration Runs v3.3 20130710/Oyster/Run001/Output/MergePurgeIndex.link</LinkOutput>
+     <LinkOutput Type="TextFile">examples/Run001/Output/MergePurgeIndex.link</LinkOutput>
     
  
      <ReferenceSources>
-         <Source>/Users/shayanmohanty/Downloads/Demonstration Runs v3.3 20130710/Oyster/Run001/Scripts/MergePurgeSourceDescriptor.xml</Source>
+         <Source>examples/Run001/Scripts/MergePurgeSourceDescriptor.xml</Source>
      </ReferenceSources>
 </OysterRunScript>
