@@ -1,4 +1,5 @@
 *.class
+*.log
 .DS_STORE
 
 # Mobile Tools for Java (J2ME)
