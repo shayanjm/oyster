@@ -14,10 +14,10 @@
     <!-- -->
     <IdentityRules>
       <Rule Ident="Location_Name">
-        <Term Item="Business_Name" MatchResult="MATCHRATING" />
-        <Term Item="Business_Street" MatchResult="EXACT_IGNORE_CASE" />
-        <Term Item="Business_City" MatchResult="EXACT_IGNORE_CASE" />
-        <Term Item="Business_Zip" MatchResult="EXACT_IGNORE_CASE" />
+        <Term Item="Business_Name" MatchResult="exact" />
+        <Term Item="Business_Street" MatchResult="exact" />
+        <Term Item="Business_City" MatchResult="exact" />
+        <Term Item="Business_Zip" MatchResult="exact" />
       </Rule>
     </IdentityRules>
 </OysterAttributes>
