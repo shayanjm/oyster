@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OysterRunScript>
+     <Settings RunScriptName="SOSRunScript" Explanation="On" Debug="On" ChangeReportDetail="Yes"  Trace="On" SS="Off" />
+
+     <LogFile Num="5" Size="100000000">log/MergePurge_%g.log</LogFile>
+
+     <RunMode>MergePurge</RunMode>
+
+     <EREngine Type="FSCluster" />
+
+     <!-- Attributes read from file only -->
+     <AttributePath>live_tests/Run001/Scripts/SOSAttributes.xml</AttributePath> 
+    
+     <!-- Merge-purge does not start with any managed identities -->
+     <IdentityInput Type="None" />
+    
+     <!-- Merge-purge does not produce any managed identities -->
+     <IdentityOutput Type="None" />
+
+     <!-- Merge-purge only output is the Link Index  -->
+     <LinkOutput Type="TextFile">live_tests/Run001/Output/SOSIndex.link</LinkOutput>
+    
+ 
+     <ReferenceSources>
+         <Source>live_tests/Run001/Scripts/SOSSourceDescriptor.xml</Source>
+     </ReferenceSources>
+</OysterRunScript>

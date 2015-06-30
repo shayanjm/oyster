@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Dallas Attributes
+-->
+
+<OysterAttributes System="Dallas">
+    <Attribute Item="Business_Name"  Algo= "none" />
+    <Attribute Item="Business_Types"  Algo="none" />
+        
+    <!-- -->
+    <IdentityRules>
+      <Rule Ident="Exact">
+        <Term Item="Business_Name" MatchResult="exact" />
+        <Term Item="Business_Types" MatchResult="exact" />
+      </Rule>
+      <Rule Ident="ExactIgnoreCase">
+        <Term Item="Business_Name" MatchResult="exact_ignore_case" />
+        <Term Item="Business_Types" MatchResult="exact_ignore_case" />
+      </Rule>
+    </IdentityRules>
+</OysterAttributes>

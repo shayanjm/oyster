@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OysterSourceDescriptor Name="source1">
+    <!-- Delimited -->
+    <Source Type="FileDelim" Char="," Qual="" Labels="Y">live_tests/Run001/Input/results2.csv</Source>
+    
+    <!-- Items in Source (One for each item in the source including reference identifier -->
+    <ReferenceItems>
+        <!-- For Delimited -->
+        <Item Name="url" Attribute="SOS_URL" Pos="0" />
+        <Item Name="name" Attribute="Business_Name" Pos="1" />
+        <Item Name="taxnum" Attribute="@RefID" Pos="2" />
+        <Item Name="outletnum" Attribute="Outlet_Number" Pos="3" />
+        <Item Name="street" Attribute="Business_Street" Pos="4" />
+        <Item Name="city" Attribute="Business_City" Pos="5" />
+        <Item Name="zip" Attribute="Business_Zip" Pos="6" />
+        <Item Name="registered" Attribute="Date_Registered" Pos="7" />
+        <Item Name="expired" Attribute="Date_Expired" Pos="8" />
+        <Item Name="status" Attribute="Status" Pos="9" />
+    </ReferenceItems>
+</OysterSourceDescriptor>

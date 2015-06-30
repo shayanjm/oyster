@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Dallas Source Descriptor
+-->
+
+<OysterSourceDescriptor Name="source1">
+    <!-- Delimited -->
+    <Source Type="FileDelim" Char="," Qual="" Labels="Y">live_tests/Run002/Input/Dallas.csv</Source>
+    
+    <!-- Items in Source (One for each item in the source including reference identifier -->
+    <ReferenceItems>
+        <!-- For Delimited -->
+        <Item Name="name" Attribute="Business_Name" Pos="0" />
+        <Item Name="placeID" Attribute="@RefID" Pos="1" />
+        <Item Name="types" Attribute="Business_Types" Pos="2" />
+    </ReferenceItems>
+</OysterSourceDescriptor>

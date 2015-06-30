@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OysterAttributes System="SOS">
+    <Attribute Item="SOS_URL" Algo="none" />
+    <Attribute Item="Business_Name" Algo="none" />
+    <Attribute Item="Outlet_Number" Algo="none" />
+    <Attribute Item="Business_Street" Algo="none" />
+    <Attribute Item="Business_City" Algo="none" />
+    <Attribute Item="Business_State" Algo="none" />
+    <Attribute Item="Business_Zip" Algo="none" />
+    <Attribute Item="Date_Registered" Algo="none" />
+    <Attribute Item="Date_Expired" Algo="none" />
+    <Attribute Item="Status" Algo="none" />
+    <!-- -->
+    <IdentityRules>
+      <Rule Ident="Location_Name">
+        <Term Item="Business_Name" MatchResult="MATCHRATING" />
+        <Term Item="Business_Street" MatchResult="EXACT_IGNORE_CASE" />
+        <Term Item="Business_City" MatchResult="EXACT_IGNORE_CASE" />
+        <Term Item="Business_Zip" MatchResult="EXACT_IGNORE_CASE" />
+      </Rule>
+    </IdentityRules>
+</OysterAttributes>
